@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mql.www.imageloader.MainActivity">
+
+    <Button
+        android:id="@+id/loader"
+        android:layout_margin="5dp"
+        android:text="直接监听加载"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/SimpleLoader"
+        android:layout_margin="5dp"
+        android:text="简单监听加载"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/SizeLoader"
+        android:layout_margin="5dp"
+        android:text="设置尺寸加载"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/DisplayLoader"
+        android:layout_margin="5dp"
+        android:text="DisPlay加载"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:id="@+id/ImageLoader"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
